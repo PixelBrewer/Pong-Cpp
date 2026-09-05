@@ -1,0 +1,22 @@
+# IDE settings
+.idea/
+.vscode/
+.vs/
+
+# Build output (including downloaded raylib sources)
+cmake-build-*/
+build/
+out/
+bin/
+
+# Local CMake configuration
+CMakeUserPresets.json
+CMakeSettings.json
+
+# Local agent settings
+.codex/
+.agents/
+
+# OS files
+.DS_Store
+Thumbs.db
