@@ -41,7 +41,8 @@ jobs:
             libx11-dev \
             libxcursor-dev \
             libxinerama-dev \
-            libxrandr-dev
+            libxrandr-dev \
+            libxi-dev
 
       - name: Show tool versions
         run: |
