@@ -27,8 +27,14 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Show compiler versions
+      - name: Setup CMake
+        uses: jwlawson/actions-setup-cmake@v2
+        with:
+          cmake-version: "4.3.x"
+
+      - name: Show tool versions
         run: |
+          cmake --version
           clang --version
           clang++ --version
 
